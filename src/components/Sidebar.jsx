@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MainLogo from "../assets/images/logo.svg";
+import SunImage from "../assets/images/icon-weather.svg";
 import {
   Menu,
   X,
@@ -88,18 +89,16 @@ function Sidebar() {
           </ul>
         </nav>
 
-        <div className="mx-4 p-4 bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-2xl border border-sky-100/50">
-          <div className="flex items-start justify-between">
-            <div>
-              <p className="text-xs font-medium uppercase tracking-wider text-stone-400">
-                Today in Cassis
-              </p>
-              <p className="text-3xl font-light text-stone-700 mt-1">27°</p>
-              <p className="text-sm text-stone-500">Sunny · light breeze</p>
-            </div>
-            <div className="bg-yellow-400/20 p-2 rounded-full">
-              <Sun size={28} className="text-yellow-500" strokeWidth={1.5} />
-            </div>
+        <div
+          className="mx-4 p-4  rounded-2xl bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${SunImage})` }}
+        >
+          <div className="flex flex-col items-start justify-between">
+            <p className="text-xs font-medium uppercase tracking-wider text-neutral-700">
+              Today in Cassis
+            </p>
+            <p className="text-3xl font-heading text-stone-700 mt-1">27°</p>
+            <p className="text-sm text-stone-500">Sunny · light breeze</p>
           </div>
         </div>
         <footer>
