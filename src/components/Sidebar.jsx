@@ -26,7 +26,7 @@ function Sidebar() {
   ];
 
   return (
-    <section className="">
+    <section>
       <button
         onClick={toggleSidebar}
         className="lg:hidden fixed top-4 left-4 z-50 p-2 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:bg-white transition"
@@ -46,8 +46,8 @@ function Sidebar() {
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full w-80 bg-white z-50 
-          transform transition-transform duration-300 ease-in-out
+          fixed top-0 left-0 h-full w-80 bg-neutral-50 z-50 
+          transform transition-transform border-r border-neutral-400 duration-300 ease-in-out
           lg:translate-x-0 lg:relative lg:w-72 lg:min-h-screen
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
           flex flex-col shadow-2xl lg:shadow-none
@@ -104,14 +104,14 @@ function Sidebar() {
           </div>
         </div>
         <footer>
-          <div className="p-6 mt-4 border-t border-stone-100">
+          <div className="p-6 mt-4 ">
             <div className="space-y-2">
-              <p className="text-xs text-stone-400 leading-relaxed">
-                <span className="font-bold text-stone-300">EST. 1987</span>
+              <p className="text-xs text-neutral-700 leading-relaxed">
+                <span className="font-bold text-neutral-700">EST. 1987</span>
                 <br />
                 MAISON SOLEIL - 12 RUE DES OLIVIERS - CASSIS
               </p>
-              <p className="text-[10px] text-stone-300 tracking-wider">
+              <p className="text-[10px] text-neutral-700 tracking-wider">
                 © 2026 MAISON SOLEIL
               </p>
             </div>

@@ -6,9 +6,9 @@ import Confirmation from "./components/Confirmation";
 function App() {
   return (
     <>
-      <div className="grid grid-cols-[350px_1fr]">
+      <div className="grid grid-cols-[250px_1fr]">
         <Sidebar />
-        <main className="px-12 py-6">
+        <main className="px-12 py-3">
           <Confirmation />
           <Booking />
           <Cards />

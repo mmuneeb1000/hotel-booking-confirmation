@@ -2,9 +2,9 @@ import { Copy } from "lucide-react";
 
 function Cards() {
   return (
-    <section className="w-full flex">
-      <div className="w-sm p-8">
-        <div className="flex items-center gap-3">
+    <section className="w-full  flex bg-neutral-50 gap-6">
+      <div className="w-xs p-4 rounded-lg bg-white">
+        <div className="flex items-center gap-3 ">
           <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
             01
           </span>
@@ -22,7 +22,7 @@ function Cards() {
         </p>
       </div>
 
-      <div className="w-sm p-8">
+      <div className="w-xs p-4 rounded-lg bg-white">
         <div className="flex items-center gap-3">
           <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
             02
@@ -60,7 +60,7 @@ function Cards() {
         </div>
       </div>
 
-      <div className=" w-sm p-8">
+      <div className=" w-xs rounded-lg p-4 bg-white">
         <div className="flex items-center gap-3">
           <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
             03

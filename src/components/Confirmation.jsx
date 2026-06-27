@@ -1,6 +1,6 @@
 function Confirmation() {
   return (
-    <section className="w-full  justify-around flex">
+    <section className="w-full  justify-around flex bg-neutral-50">
       <div className=" flex item-left  flex-col">
         <div className="flex items-center gap-2 mt-0.5">
           <span className="text-xs font-medium uppercase tracking-wider text-stone-400">
