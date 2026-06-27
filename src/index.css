@@ -48,6 +48,12 @@
 
 body {
   background-color: var(--color-neutral-100);
-  font-family: "DM Mono", monospace;
+  font-family: "DM Sans", sans-serif;
   font-size: 0.875rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
 }

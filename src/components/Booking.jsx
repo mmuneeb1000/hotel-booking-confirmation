@@ -3,7 +3,7 @@ import { Printer, CalendarPlus, Copy } from "lucide-react";
 function Booking() {
   return (
     <section className="w-full flex mx-auto bg-neutral-100 p-4 gap-4 justify-center">
-      <div className=" w-xs bg-white rounded-2xl p-5 my-5 border border-stone-100">
+      <div className=" w-xs bg-white rounded-2xl p-5 mb-5 border border-stone-100">
         <div className="flex justify-between items-start">
           <h3 className="text-xs font-medium uppercase tracking-wider text-neutral-700">
             Receipt
@@ -62,22 +62,21 @@ function Booking() {
         className="w-xs mb-6 rounded-xl 
        bg-gradient-to-bl from-terracotta-400 to-terracotta-600 p-5"
       >
-        <h2 className="text-xs font-medium uppercase tracking-wider text-neutral-100">
+        <p className="text-xs uppercase tracking-wider text-neutral-100">
           Welcome Card
-        </h2>
-
-        <p className="mt-1.5 text-sm italic text-sun-200">
-          A note from your host,
-          <span className="font-medium not-italic text-neutral-100">
-            Margaux.
-          </span>
         </p>
+        <div className="flex flex-col my-12">
+          <p className="mt-1.5 text-lg italic text-sun-200">
+            A note from your host,
+          </p>
+          <h2 className="text-xl italic text-neutral-100">Margaux.</h2>
 
-        <p className="mt-1.5 text-sm leading-relaxed text-neutral-100">
-          We're so glad you're coming. The shutters will be open, the lemonade
-          cold, and the cat, Poivre, pretending not to notice you.
-        </p>
-        <div className="flex flex-col items-left justify-center  py-3">
+          <p className="mt-1.5 text-sm leading-relaxed text-neutral-100">
+            We're so glad you're coming. The shutters will be open, the lemonade
+            cold, and the cat, Poivre, pretending not to notice you.
+          </p>
+        </div>
+        <div className="flex flex-col items-left justify-center">
           <span className="text-xs font-medium uppercase tracking-wider text-neutral-200">
             Room
           </span>

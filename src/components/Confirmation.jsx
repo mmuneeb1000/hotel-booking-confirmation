@@ -9,7 +9,9 @@ function Confirmation() {
         </div>
 
         <div className="text-left">
-          <p className="text-xl font-light text-stone-800">Bienvenue, Lucia.</p>
+          <h2 className="text-xl font-light text-stone-800">
+            Bienvenue, Lucia.
+          </h2>
         </div>
       </div>
       <div className="flex  items-center gap-3">

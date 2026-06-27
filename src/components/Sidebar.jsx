@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import MainLogo from "../assets/images/logo.svg";
 import {
   Menu,
   X,
@@ -63,9 +64,7 @@ function Sidebar() {
         </button>
 
         <div className="p-6 pt-8 lg:pt-6 border-b border-stone-100">
-          <h1 className="text-xl font-light tracking-widest text-stone-500">
-            MAISON SOLEIL
-          </h1>
+          <img src={MainLogo} />
         </div>
 
         <nav className="flex-1 p-4">
