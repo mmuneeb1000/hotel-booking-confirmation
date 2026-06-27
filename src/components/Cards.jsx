@@ -3,7 +3,7 @@ import { Copy } from "lucide-react";
 function Cards() {
   return (
     <section className="w-full flex">
-      <div className="mt-6">
+      <div className="w-sm p-8">
         <div className="flex items-center gap-3">
           <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
             01
@@ -22,7 +22,7 @@ function Cards() {
         </p>
       </div>
 
-      <div className="mt-6">
+      <div className="w-sm p-8">
         <div className="flex items-center gap-3">
           <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
             02
@@ -60,7 +60,7 @@ function Cards() {
         </div>
       </div>
 
-      <div className="mt-6 pb-8">
+      <div className=" w-sm p-8">
         <div className="flex items-center gap-3">
           <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
             03

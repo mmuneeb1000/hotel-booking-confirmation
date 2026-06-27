@@ -2,50 +2,23 @@ import { Printer, CalendarPlus, Copy } from "lucide-react";
 
 function Booking() {
   return (
-    <section className="w-full flex mx-auto rounded-3xl bg-white shadow-lg p-6">
-      <div>
-        <div>
-          <div className="flex items-center gap-2 mt-0.5">
-            <span className="text-xs font-medium uppercase tracking-wider text-stone-400">
-              Booking
-            </span>
-            <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">
-              Confirmed
-            </span>
-          </div>
-        </div>
-        <div className="text-right">
-          <p className="text-xl font-light text-stone-800">Bienvenue, Lucia.</p>
-        </div>
-        <div className="flex gap-3 mb-6">
-          <button className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-stone-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-stone-800">
-            <Printer size={18} />
-            Print receipt
-          </button>
+    <section className="w-full flex mx-auto bg-white p-6 gap-4 justify-center">
+      <div className="w-sm mb-6 rounded-2xl border border-amber-200/60 bg-amber-50/60 p-5">
+        <h2 className="text-xs font-medium uppercase tracking-wider text-amber-700/70">
+          Welcome Card
+        </h2>
 
-          <button className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-stone-300 px-4 py-2 text-sm font-medium text-stone-700 transition hover:bg-stone-100">
-            <CalendarPlus size={18} />
-            Add to calendar
-          </button>
-        </div>
-        <div className="mb-6 rounded-2xl border border-amber-200/60 bg-amber-50/60 p-5">
-          <h2 className="text-xs font-medium uppercase tracking-wider text-amber-700/70">
-            Welcome Card
-          </h2>
+        <p className="mt-1.5 text-sm italic text-stone-600">
+          A note from your host,{" "}
+          <span className="font-medium not-italic text-stone-700">
+            Margaux.
+          </span>
+        </p>
 
-          <p className="mt-1.5 text-sm italic text-stone-600">
-            A note from your host,{" "}
-            <span className="font-medium not-italic text-stone-700">
-              Margaux.
-            </span>
-          </p>
-
-          <p className="mt-1.5 text-sm leading-relaxed text-stone-700">
-            We're so glad you're coming. The shutters will be open, the lemonade
-            cold, and the cat, Poivre, pretending not to notice you.
-          </p>
-        </div>
-
+        <p className="mt-1.5 text-sm leading-relaxed text-stone-700">
+          We're so glad you're coming. The shutters will be open, the lemonade
+          cold, and the cat, Poivre, pretending not to notice you.
+        </p>
         <div className="flex items-center justify-between border-b border-stone-200/80 py-3">
           <span className="text-xs font-medium uppercase tracking-wider text-stone-400">
             Room
@@ -56,7 +29,7 @@ function Booking() {
           </span>
         </div>
       </div>
-      <div className="bg-stone-50/80 rounded-2xl p-5 my-5 border border-stone-100">
+      <div className=" w-sm bg-stone-50/80 rounded-2xl p-5 my-5 border border-stone-100">
         <div className="flex justify-between items-start">
           <h3 className="text-xs font-medium uppercase tracking-wider text-stone-400">
             Receipt
@@ -112,13 +85,6 @@ function Booking() {
         <p className="text-xs text-stone-400 text-right mt-1">
           PAID · WISE · GBP
         </p>
-      </div>
-
-      <div className="mt-6">
-        <button className="flex items-center gap-2 text-sm text-stone-600 hover:text-stone-900">
-          <Copy size={16} />
-          Copy booking reference
-        </button>
       </div>
     </section>
   );
