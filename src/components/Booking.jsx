@@ -1,9 +1,18 @@
 import { Printer, CalendarPlus, Copy } from "lucide-react";
+import IconBarcode from "../assets/images/icon-barcode.svg";
+import SunIcon from "../assets/images/illustration-sun.svg";
 
 function Booking() {
   return (
-    <section className="w-full flex mx-auto bg-neutral-100 p-4 gap-4 justify-center">
-      <div className=" w-xs bg-white rounded-2xl p-5 mb-5 border border-stone-100">
+    <section
+      className="w-full relative h-120 flex mx-auto 
+      items-center bg-neutral-100 p-4 gap-4 justify-center "
+    >
+      <img className="w-l mx-auto absolute z-1" src={SunIcon} />
+      <div
+        className=" w-xs absolute transform -rotate-4 bg-white 
+        rounded-2xl h-90 p-5 mb-5 border border-stone-100 z-2 left-50 hover:left-0"
+      >
         <div className="flex justify-between items-start">
           <h3 className="text-xs font-medium uppercase tracking-wider text-neutral-700">
             Receipt
@@ -48,19 +57,25 @@ function Booking() {
           </div>
         </div>
 
-        <div className="flex justify-between items-center border-t border-stone-200/70 pt-4 mt-1">
+        <div
+          className="flex justify-between items-center 
+        border-t border-stone-200/70 pt-4 mb-4 mt-1"
+        >
           <span className="text-sm font-bold uppercase tracking-wide text-neutral-600">
             Total Paid
           </span>
           <span className="text-xl font-bold text-neutral-900">€ 730.40</span>
         </div>
-        <p className="text-xs text-neutral-500 text-right mt-1">
-          PAID · WISE · GBP
-        </p>
+        <div className="flex">
+          <p className="w-full text-xs text-neutral-500 text-left mt-1">
+            PAID · WISE · GBP
+          </p>
+          <img src={IconBarcode} />
+        </div>
       </div>
       <div
-        className="w-xs mb-6 rounded-xl 
-       bg-gradient-to-bl from-terracotta-400 to-terracotta-600 p-5"
+        className="w-xs mb-6 rounded-xl h-90 transform absolute rotate-4
+       bg-gradient-to-bl from-terracotta-400 to-terracotta-600 p-5 z-3 right-53 hover:right-0"
       >
         <p className="text-xs uppercase tracking-wider text-neutral-100">
           Welcome Card

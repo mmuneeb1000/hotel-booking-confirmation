@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="grid grid-cols-[300px_1fr]">
         <Sidebar />
-        <main className="px-12 py-3">
+        <main className="px-12 py-4">
           <Confirmation />
           <Booking />
           <Cards />
