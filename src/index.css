@@ -23,8 +23,31 @@
   --color-blue-500: hsl(230, 49%, 56%);
 
   --color-rose-500: hsl(340, 48%, 52%);
+
+  --font-heading: "Fraunces", serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(./assets/fonts/dm-sans/DMSans-VariableFont_opsz\,wght.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "DM Mono";
+  src: url(./assets/fonts/dm-mono/DMMono-Regular.ttf) format("truetype");
 }
 
 body {
   background-color: var(--color-neutral-100);
+  font-family: "DM Mono", monospace;
+  font-size: 0.875rem;
 }
