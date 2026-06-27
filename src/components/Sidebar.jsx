@@ -34,7 +34,7 @@ function Sidebar() {
         className="lg:hidden fixed top-4 left-4 z-50 p-2 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:bg-white transition"
         aria-label="Toggle menu"
       >
-        <Menu size={24} className="text-stone-700" />
+        <Menu size={24} className="text-neutral-800" />
       </button>
 
       {/* Overlay */}
@@ -58,28 +58,28 @@ function Sidebar() {
         {/* Close button - mobile only */}
         <button
           onClick={closeSidebar}
-          className="lg:hidden absolute top-4 right-4 p-2 hover:bg-stone-100 rounded-xl transition"
+          className="lg:hidden absolute top-4 right-4 p-2 hover:bg-neutral-200 rounded-xl transition"
           aria-label="Close menu"
         >
-          <X size={24} className="text-stone-700" />
+          <X size={24} className="text-neutral-800" />
         </button>
 
-        <div className="p-6 pt-8 lg:pt-6 border-b border-stone-100">
+        <div className="mx-4 py-5 border-b border-neutral-300">
           <img src={MainLogo} />
         </div>
 
-        <nav className="flex-1 p-4">
-          <ul className="space-y-1">
+        <nav className="flex-1 p-2">
+          <ul className="space-y-1 cursor-pointer">
             {menuItems.map((item, index) => (
               <li key={index}>
                 <a
                   href={item.href}
-                  className="flex items-center gap-4 px-4 py-3 rounded-xl text-stone-600 hover:bg-amber-50 hover:text-stone-800 transition group"
+                  className="flex items-center gap-3 px-3 py-2 rounded-xl border-3 border-neutral-100 active:border-terracotta-500 text-neutral-800 hover:bg-white hover:text-neutral-900 transition group"
                   onClick={closeSidebar}
                 >
                   <item.icon
                     size={20}
-                    className="text-stone-400 group-hover:text-amber-600 transition"
+                    className="text-neutral-900 group-hover:text-neutral-800 transition"
                     strokeWidth={1.5}
                   />
                   <span className="text-sm font-medium">{item.label}</span>
@@ -91,24 +91,24 @@ function Sidebar() {
 
         <div className="mx-4 p-4 relative overflow-hidden rounded-2xl bg-sun-300 bg-cover bg-center bg-no-repeat">
           <div className="flex flex-col items-start justify-between">
-            <p className="text-xs font-medium uppercase tracking-wider text-neutral-700">
+            <p className="text-xs font-medium uppercase tracking-wider text-neutral-600">
               Today in Cassis
             </p>
 
-            <p className="text-3xl font-heading text-stone-700 mt-1">27°</p>
-            <p className="text-sm text-stone-500">Sunny · light breeze</p>
+            <p className="text-3xl font-heading text-neutral-700 mt-1">27°</p>
+            <p className="text-sm text-neutral-800">Sunny · light breeze</p>
           </div>
           <img className="absolute wd-full right-0 -top-4" src={SunImage} />
         </div>
         <footer>
           <div className="p-6 mt-4 ">
             <div className="space-y-2">
-              <p className="text-xs text-neutral-700 leading-relaxed">
-                <span className="font-bold text-neutral-700">EST. 1987</span>
+              <p className="text-xs text-neutral-600 leading-relaxed">
+                <span className="font-bold text-neutral-600">EST. 1987</span>
                 <br />
                 MAISON SOLEIL - 12 RUE DES OLIVIERS - CASSIS
               </p>
-              <p className="text-[10px] text-neutral-700 tracking-wider">
+              <p className="text-[10px] text-neutral-600 tracking-wider">
                 © 2026 MAISON SOLEIL
               </p>
             </div>
