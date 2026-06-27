@@ -89,17 +89,16 @@ function Sidebar() {
           </ul>
         </nav>
 
-        <div
-          className="mx-4 p-4  rounded-2xl bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${SunImage})` }}
-        >
+        <div className="mx-4 p-4 relative overflow-hidden rounded-2xl bg-sun-300 bg-cover bg-center bg-no-repeat">
           <div className="flex flex-col items-start justify-between">
             <p className="text-xs font-medium uppercase tracking-wider text-neutral-700">
               Today in Cassis
             </p>
+
             <p className="text-3xl font-heading text-stone-700 mt-1">27°</p>
             <p className="text-sm text-stone-500">Sunny · light breeze</p>
           </div>
+          <img className="absolute wd-full right-0 -top-4" src={SunImage} />
         </div>
         <footer>
           <div className="p-6 mt-4 ">
