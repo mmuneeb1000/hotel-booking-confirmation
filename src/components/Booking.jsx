@@ -2,7 +2,7 @@ import { Printer, CalendarPlus, Copy } from "lucide-react";
 
 function Booking() {
   return (
-    <section className="w-full flex mx-auto bg-neutral-50 p-4 gap-4 justify-center">
+    <section className="w-full flex mx-auto bg-neutral-100 p-4 gap-4 justify-center">
       <div className=" w-xs bg-white rounded-2xl p-5 my-5 border border-stone-100">
         <div className="flex justify-between items-start">
           <h3 className="text-xs font-medium uppercase tracking-wider text-neutral-700">
@@ -60,7 +60,7 @@ function Booking() {
       </div>
       <div
         className="w-xs mb-6 rounded-xl 
-       bg-gradient-to-bl from-terracotta-500 to-terracotta-600 p-5"
+       bg-gradient-to-bl from-terracotta-400 to-terracotta-600 p-5"
       >
         <h2 className="text-xs font-medium uppercase tracking-wider text-neutral-100">
           Welcome Card

@@ -2,13 +2,13 @@ import { Copy } from "lucide-react";
 
 function Cards() {
   return (
-    <section className="w-full  flex bg-neutral-50 gap-6">
+    <section className="w-full  flex bg-neutral-100 gap-6">
       <div className="w-xs p-4 rounded-lg bg-white">
         <div className="flex items-center gap-3 ">
-          <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
+          <span className="text-xl font-bold text-sun-500 px-2 py-0.5 rounded-md">
             01
           </span>
-          <h4 className="text-xs font-medium uppercase tracking-wider text-stone-400">
+          <h4 className="text-xs font-medium uppercase tracking-wider  text-neutral-700">
             Arrival
           </h4>
         </div>
@@ -24,10 +24,10 @@ function Cards() {
 
       <div className="w-xs p-4 rounded-lg bg-white">
         <div className="flex items-center gap-3">
-          <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
+          <span className="text-xl font-bold text-blue-500 px-2 py-0.5 rounded-md">
             02
           </span>
-          <h4 className="text-xs font-medium uppercase tracking-wider text-stone-400">
+          <h4 className="text-xs font-medium uppercase tracking-wider  text-neutral-700">
             Wifi
           </h4>
         </div>
@@ -37,7 +37,7 @@ function Cards() {
         <p className="text-xs text-stone-400 mt-0.5">Password below</p>
         <div className="flex items-center justify-between bg-stone-50 border border-stone-200 rounded-xl px-4 py-3 mt-2">
           <div>
-            <p className="text-xs uppercase tracking-wider text-stone-400">
+            <p className="text-xs uppercase tracking-wider  text-neutral-700">
               Network
             </p>
             <p className="text-sm font-medium text-stone-700">
@@ -62,10 +62,10 @@ function Cards() {
 
       <div className=" w-xs rounded-lg p-4 bg-white">
         <div className="flex items-center gap-3">
-          <span className="text-xs font-bold text-stone-400 bg-stone-100 px-2 py-0.5 rounded-md">
+          <span className="text-xl font-bold text-rose-500  px-2 py-0.5 rounded-md">
             03
           </span>
-          <h4 className="text-xs font-medium uppercase tracking-wider text-stone-400">
+          <h4 className="text-xs font-medium uppercase tracking-wider text-neutral-700">
             Breakfast
           </h4>
         </div>

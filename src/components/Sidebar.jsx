@@ -46,7 +46,7 @@ function Sidebar() {
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full w-80 bg-neutral-50 z-50 
+          fixed top-0 left-0 h-full w-80 bg-neutral-100 z-50 
           transform transition-transform border-r border-neutral-400 duration-300 ease-in-out
           lg:translate-x-0 lg:relative lg:w-72 lg:min-h-screen
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
