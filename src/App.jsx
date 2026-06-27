@@ -2,6 +2,7 @@ import Sidebar from "./components/Sidebar";
 import Booking from "./components/Booking";
 import Cards from "./components/Cards";
 import Confirmation from "./components/Confirmation";
+import Hover from "./components/Hover";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <main className="px-12 py-4">
           <Confirmation />
           <Booking />
+          <Hover />
           <Cards />
         </main>
       </div>

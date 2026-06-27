@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-@layer utilities {
-}
-
 @theme {
   --color-neutral-900: hsl(33, 15%, 15%);
   --color-neutral-800: hsl(33, 22%, 20%);
