@@ -1,17 +1,18 @@
 import { Printer, CalendarPlus, Copy } from "lucide-react";
 import IconBarcode from "../assets/images/icon-barcode.svg";
 import SunIcon from "../assets/images/illustration-sun.svg";
+import SunIconSmall from "../assets/images/icon-sun.svg";
 
 function Booking() {
   return (
     <section
-      className="w-300 relative h-110 flex mx-auto group
+      className="w-300 relative h-108 flex mx-auto group
       items-center bg-neutral-100 px-4 pt-4 gap-4 justify-center "
     >
       <img className="w-l mx-auto absolute z-1" src={SunIcon} />
       <div
         className=" w-xs absolute transform -rotate-4 bg-white 
-        rounded-2xl h-90 p-5 mb-5 border border-stone-100 z-2 top-15 left-80 group-hover:left-20"
+        rounded-2xl h-90 p-5 mb-5 border border-stone-100 z-2 top-18 left-80 group-hover:left-20"
       >
         <div className="flex justify-between items-start">
           <h3 className="text-xs font-medium uppercase tracking-wider text-neutral-700">
@@ -76,12 +77,15 @@ function Booking() {
       <div
         className="w-xs mb-6 rounded-xl h-90 transform absolute rotate-4  
        bg-gradient-to-bl from-terracotta-400 to-terracotta-600 p-5 z-3 
-       right-62 top-15 group-hover:right-20"
+       right-62 top-18 group-hover:right-20"
       >
-        <p className="text-xs uppercase tracking-wider text-neutral-100">
-          Welcome Card
-        </p>
-        <div className="flex flex-col my-12">
+        <div className="flex border-t border-dashed border-sun-200 pt-2">
+          <p className="w-full text-xs uppercase tracking-wider text-neutral-200">
+            Welcome Card
+          </p>
+          <img src={SunIconSmall} />
+        </div>
+        <div className="flex flex-col mt-5 mb-13">
           <p className="mt-1.5 text-lg italic text-sun-200">
             A note from your host,
           </p>

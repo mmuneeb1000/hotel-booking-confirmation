@@ -19,9 +19,9 @@ function Cards() {
             01
           </span>
         </div>
-        <p className="text-xl text-neutral-700 font-medium mt-3">
+        <h3 className="text-xl text-neutral-700 font-medium mt-3">
           Check-in from 15:00
-        </p>
+        </h3>
         <p className="text-xs text-neutral-500">Sat, 25 April</p>
         <p className="text-sm text-neutral-600 leading-relaxed mt-1.5">
           Ring the brass bell by the blue door. If we’re at the market, the key
@@ -39,9 +39,9 @@ function Cards() {
             02
           </span>
         </div>
-        <p className="text-xl text-neutral-700 font-medium mt-3">
+        <h3 className="text-xl text-neutral-700 font-medium mt-3">
           Le Soleil · Guest
-        </p>
+        </h3>
         <p className="text-xs text-neutral-500">Password below</p>
         <div className="flex flex-col gap-2 items-start justify-between mt-3">
           <div className="w-full flex rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2">
@@ -78,9 +78,9 @@ function Cards() {
             03
           </span>
         </div>
-        <p className="text-xl text-neutral-700 font-medium mt-3">
+        <h3 className="text-xl text-neutral-700 font-medium mt-3">
           Served 8 – 10:30
-        </p>
+        </h3>
         <p className="text-xs text-neutral-500">On the terrace</p>
         <p className="text-sm text-neutral-600 leading-relaxed mt-1.5">
           Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free

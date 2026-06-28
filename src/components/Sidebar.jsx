@@ -83,6 +83,11 @@ function Sidebar() {
                     strokeWidth={1.5}
                   />
                   <span className="text-sm font-medium">{item.label}</span>
+                  {index === 0 && (
+                    <span className="ml-auto flex h-5 w-5 items-center justify-center rounded-full bg-terracotta-600 text-[11px] font-semibold text-white">
+                      1
+                    </span>
+                  )}
                 </a>
               </li>
             ))}
