@@ -4,18 +4,17 @@ A responsive booking confirmation interface built with **React**, **Vite**, **Ta
 
 ## Table of Contents
 
-[Overview](#overview)
-[Features](#features)
-[Tech Stack](#tech-stack)
-
-[Project Goals](#project-goals)
-[Design Approach](#design-approach)
-[Development Process](#development-process)
-[Challenges Faced](#challenges-faced)
-[Lessons Learned](#lessons-learned)
-[Project Structure](#project-structure)
-[Future Improvements](#future-improvements)
-[Credits](#credits)
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Goals](#project-goals)
+- [Design Approach](#design-approach)
+- [Development Process](#development-process)
+- [Challenges Faced](#challenges-faced)
+- [Lessons Learned](#lessons-learned)
+- [Project Structure](#project-structure)
+- [Future Improvements](#future-improvements)
+- [Credits](#credits)
 
 ## Overview
 
