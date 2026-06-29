@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="grid lg:grid-cols-[300px_1fr] md:grid-cols-1">
         <Sidebar />
-        <main className="p-4 w-full lg:w-full lg:px-12 lg:py-4">
+        <main className="p-4 w-full lg:px-4 lg:py-4">
           <Confirmation />
           <Booking />
           <Hover />

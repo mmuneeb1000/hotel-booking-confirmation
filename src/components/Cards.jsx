@@ -6,7 +6,7 @@ import BreakfastImg from "../assets/images/icon-breakfast.svg";
 function Cards() {
   return (
     <section className="w-full pt-4 flex flex-col md:flex-row lg:flex-row justify-center bg-neutral-100 gap-6">
-      <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
+      <div className="w-full p-4 rounded-lg bg-white lg:w-xs border border-neutral-400">
         <div className="flex items-center gap-3 ">
           <img
             className="bg-terracotta-600 p-1.5 rounded-xl"
@@ -29,7 +29,7 @@ function Cards() {
         </p>
       </div>
 
-      <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
+      <div className="w-full p-4 rounded-lg bg-white lg:w-xs border border-neutral-400">
         <div className="flex items-center gap-3">
           <img className="bg-blue-500 p-1.5 rounded-xl" src={WifiImg} />
           <h4 className="text-sm w-full font-medium uppercase tracking-wider  text-blue-500">
@@ -52,7 +52,7 @@ function Cards() {
               Le Soleil · Guest
             </p>
           </div>
-          <div className="w-full flex rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2">
+          <div className="w-full flex rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2 ">
             <p className="text-xs w-full uppercase tracking-wider text-neutral-700">
               Password
             </p>
@@ -68,7 +68,7 @@ function Cards() {
         </div>
       </div>
 
-      <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
+      <div className="w-full p-4 rounded-lg bg-white lg:w-xs border border-neutral-400">
         <div className="flex items-center gap-3">
           <img className="bg-rose-500 p-1.5 rounded-xl" src={BreakfastImg} />
           <h4 className="w-full text-sm font-medium uppercase tracking-wider text-rose-500">
