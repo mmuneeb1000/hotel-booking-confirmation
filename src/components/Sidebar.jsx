@@ -51,9 +51,9 @@ function Sidebar() {
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full w-full md:w-80 bg-neutral-100 z-50 
+          fixed top-0 left-0 h-full w-full md:w-70 md:h-full  bg-neutral-100 z-50 
           transform transition-transform border-r border-neutral-400 duration-300 ease-in-out
-          lg:translate-x-0 lg:relative lg:w-72 lg:min-h-screen
+          lg:translate-x-0 lg:relative lg:w-60 lg:min-h-190
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
           flex flex-col shadow-2xl lg:shadow-none
         `}
@@ -71,7 +71,7 @@ function Sidebar() {
           <img src={MainLogo} />
         </div>
 
-        <nav className="flex-1 p-2">
+        <nav className="flex-1 p-2 mb-30">
           <ul className="space-y-1 cursor-pointer">
             {menuItems.map((item, index) => (
               <li key={index}>

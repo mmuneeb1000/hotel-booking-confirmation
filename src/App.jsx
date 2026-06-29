@@ -7,9 +7,9 @@ import Hover from "./components/Hover";
 function App() {
   return (
     <>
-      <div className="grid lg:grid-cols-[300px_1fr] md:grid-cols-1">
+      <div className="grid lg:grid-cols-[1fr_5fr] md:grid-cols-1">
         <Sidebar />
-        <main className="p-4 w-full lg:px-4 lg:py-4">
+        <main className="p-4 flex flex-col align-center w-full  lg:px-4 lg:py-4">
           <Confirmation />
           <Booking />
           <Hover />
