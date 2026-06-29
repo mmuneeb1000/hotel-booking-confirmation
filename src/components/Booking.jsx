@@ -7,7 +7,7 @@ function Booking() {
   return (
     <section
       className="w-75 h-190 flex flex-col-reverse relative md:flex-row mx-auto 
-      group items-center bg-neutral-100 px-4 pt-4 gap-4 justify-center lg:h-110
+      group items-center bg-neutral-100 px-4 pt-4 gap-4 justify-center md:h-110 lg:h-110
        "
     >
       <img
@@ -17,6 +17,7 @@ function Booking() {
       <div
         className=" w-full bg-white rounded-2xl h-90 p-5 mb-5 z-2 bottom-0
         absolute transform -rotate-1 shadow-[2px_4px_4px_hsla(33,22%,20%,0.4)]
+        md:-right-40
         lg:-rotate-4 lg:w-xs lg:top-18 lg:right-40 
         lg:group-hover:rotate-4 lg:group-hover:right-60
         transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
@@ -85,9 +86,9 @@ function Booking() {
       <div
         className="w-full mb-6 rounded-xl h-90 top-6
        bg-gradient-to-bl from-terracotta-400 to-terracotta-700 p-4
-       shadow-[0_10px_20px_hsla(15,69%,37%,0.6)]
+       shadow-[0_10px_20px_hsla(15,69%,37%,0.6)] md:right-40
        absolute z-3 rotate-1 lg:rotate-4
-       lg:w-xs lg:left-33 lg:top-19
+       lg:w-xs lg:left-33 lg:top-19  md:top-15
        lg:group-hover:left-60 lg:group-hover:-rotate-4
        transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
        will-change-transform"

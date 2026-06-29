@@ -5,7 +5,7 @@ import BreakfastImg from "../assets/images/icon-breakfast.svg";
 
 function Cards() {
   return (
-    <section className="lg:w-full pt-4 flex flex-col lg:flex-row justify-center bg-neutral-100 gap-6">
+    <section className="w-full pt-4 flex flex-col md:flex-row lg:flex-row justify-center bg-neutral-100 gap-6">
       <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
         <div className="flex items-center gap-3 ">
           <img
