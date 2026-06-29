@@ -4,7 +4,6 @@ import SunImage from "../assets/images/icon-weather.svg";
 import {
   Menu,
   X,
-  Sun,
   MapPin,
   Home,
   Coffee,
@@ -53,7 +52,7 @@ function Sidebar() {
         className={`
           fixed top-0 left-0 h-full w-full md:w-70 md:h-full  bg-neutral-100 z-50 
           transform transition-transform border-r border-neutral-400 duration-300 ease-in-out
-          lg:translate-x-0 lg:relative lg:w-60 lg:min-h-190
+          lg:translate-x-0 lg:relative lg:w-60 lg:min-h-210
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
           flex flex-col shadow-2xl lg:shadow-none
         `}
