@@ -3,7 +3,9 @@ function Hover() {
   return (
     <section className=" hidden lg:flex lg:justify-center lg:gap-4 lg:align-center">
       <img src={DiamondIcon} />
-      <p className="text-xs uppercase tracking-widest">Hover To Fan</p>
+      <p className="text-xs uppercase text-neutral-800 tracking-widest">
+        Hover To Fan
+      </p>
       <img src={DiamondIcon} />
     </section>
   );
