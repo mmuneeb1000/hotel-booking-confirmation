@@ -28,14 +28,17 @@ function Sidebar() {
   ];
 
   return (
-    <section>
-      <button
-        onClick={toggleSidebar}
-        className="lg:hidden fixed top-4 left-4 z-50 p-2 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:bg-white transition"
-        aria-label="Toggle menu"
-      >
-        <Menu size={24} className="text-neutral-800" />
-      </button>
+    <section className="md:h-20">
+      <div className="border-b border-neutral-400">
+        <img src={MainLogo} className="lg:hidden p-4" />
+        <button
+          onClick={toggleSidebar}
+          className="lg:hidden fixed top-4 right-4 z-50 p-2 border border-neutral-400 bg-neutral-100 backdrop-blur-sm rounded-l hover:bg-white transition"
+          aria-label="Toggle menu"
+        >
+          <Menu size={18} className="text-neutral-800" />
+        </button>
+      </div>
 
       {/* Overlay */}
       {isOpen && (
@@ -48,7 +51,7 @@ function Sidebar() {
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full w-80 bg-neutral-100 z-50 
+          fixed top-0 left-0 h-full w-full md:w-80 bg-neutral-100 z-50 
           transform transition-transform border-r border-neutral-400 duration-300 ease-in-out
           lg:translate-x-0 lg:relative lg:w-72 lg:min-h-screen
           ${isOpen ? "translate-x-0" : "-translate-x-full"}

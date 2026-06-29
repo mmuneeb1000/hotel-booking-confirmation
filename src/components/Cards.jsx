@@ -5,8 +5,8 @@ import BreakfastImg from "../assets/images/icon-breakfast.svg";
 
 function Cards() {
   return (
-    <section className="w-full pt-4 flex justify-center bg-neutral-100 gap-6">
-      <div className="w-xs p-4 rounded-lg bg-white">
+    <section className="lg:w-full pt-4 flex flex-col lg:flex-row justify-center bg-neutral-100 gap-6">
+      <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
         <div className="flex items-center gap-3 ">
           <img
             className="bg-terracotta-600 p-1.5 rounded-xl"
@@ -29,7 +29,7 @@ function Cards() {
         </p>
       </div>
 
-      <div className="w-xs p-4 rounded-lg bg-white">
+      <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
         <div className="flex items-center gap-3">
           <img className="bg-blue-500 p-1.5 rounded-xl" src={WifiImg} />
           <h4 className="text-sm w-full font-medium uppercase tracking-wider  text-blue-500">
@@ -68,7 +68,7 @@ function Cards() {
         </div>
       </div>
 
-      <div className=" w-xs rounded-lg p-4 bg-white">
+      <div className="w-full p-4 rounded-lg bg-white lg:w-xs">
         <div className="flex items-center gap-3">
           <img className="bg-rose-500 p-1.5 rounded-xl" src={BreakfastImg} />
           <h4 className="w-full text-sm font-medium uppercase tracking-wider text-rose-500">
