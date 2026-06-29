@@ -23,7 +23,7 @@ function Cards() {
           Check-in from 15:00
         </h3>
         <p className="text-xs text-neutral-500">Sat, 25 April</p>
-        <p className="text-sm text-neutral-600 leading-relaxed mt-1.5">
+        <p className="text-sm text-neutral-600 leading-relaxed mt-2">
           Ring the brass bell by the blue door. If we’re at the market, the key
           is in the terracotta pot by the olive tree.
         </p>
@@ -43,17 +43,17 @@ function Cards() {
           Le Soleil · Guest
         </h3>
         <p className="text-xs text-neutral-500">Password below</p>
-        <div className="flex flex-col gap-2 items-start justify-between mt-3">
-          <div className="w-full flex rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2">
-            <p className="text-xs  w-full  uppercase tracking-wider  text-neutral-700">
+        <div className="flex flex-col gap-2 items-start justify-between mt-4">
+          <div className="w-full flex align-center rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2">
+            <p className="text-xs mt-0.75 w-full  uppercase tracking-wider  text-neutral-700">
               Network
             </p>
             <p className="text-sm font-medium text-neutral-700">
               Le Soleil · Guest
             </p>
           </div>
-          <div className="w-full flex rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2 ">
-            <p className="text-xs w-full uppercase tracking-wider text-neutral-700">
+          <div className="w-full flex align-center rounded-xl bg-neutral-200 whitespace-nowrap py-1 px-2 ">
+            <p className="text-xs mt-0.75 w-full uppercase tracking-wider text-neutral-700">
               Password
             </p>
             <div className="flex items-center gap-2">
@@ -82,7 +82,7 @@ function Cards() {
           Served 8 – 10:30
         </h3>
         <p className="text-xs text-neutral-500">On the terrace</p>
-        <p className="text-sm text-neutral-600 leading-relaxed mt-1.5">
+        <p className="text-sm text-neutral-600 leading-relaxed mt-2">
           Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free
           option? Leave a note the night before.
         </p>

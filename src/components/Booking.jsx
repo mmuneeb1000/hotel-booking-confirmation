@@ -15,7 +15,7 @@ function Booking() {
         src={SunIcon}
       />
       <div
-        className=" w-full bg-white rounded-2xl h-90 p-5 mb-5 z-2 bottom-0
+        className=" w-full bg-white rounded-2xl h-85 p-5 mb-5 z-2 bottom-0
         absolute transform -rotate-1 shadow-[2px_4px_4px_hsla(33,22%,20%,0.4)]
         md:-right-40
         lg:-rotate-4 lg:w-xs lg:top-18 lg:right-40 
@@ -68,7 +68,7 @@ function Booking() {
           </div>
         </div>
 
-        <div className="flex border-t border-neutral-400  justify-between items-center pt-3 mb-4 mt-1">
+        <div className="flex border-t border-neutral-400  justify-between items-center pt-2 mb-4 mt-1">
           <span className="text-sm uppercase tracking-wide text-neutral-600">
             Total Paid
           </span>
@@ -80,11 +80,11 @@ function Booking() {
           <p className="w-full text-[10px] text-neutral-500 text-left mt-1">
             PAID · WISE · GBP
           </p>
-          <img src={IconBarcode} />
+          <img className="h-5" src={IconBarcode} />
         </div>
       </div>
       <div
-        className="w-full mb-6 rounded-xl h-90 top-6
+        className="w-full mb-6 rounded-xl h-85 top-6
        bg-gradient-to-bl from-terracotta-400 to-terracotta-700 p-4
        shadow-[0_10px_20px_hsla(15,69%,37%,0.6)] md:right-40
        absolute z-3 rotate-1 lg:rotate-4
